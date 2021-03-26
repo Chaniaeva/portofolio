@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chania's Portofilio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body class="container">
+    <div class="row">
+        <div class="header">
+            <div class="row">
+                <div class="col-4">
+                    <img src="pict/gambarheader.png" class="headerPict" alt="Gambar Animasi">
+                </div>
+                <div class="col-8">
+                    <p class="headerText" id="header" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Chania's
+                        Portofolio</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="row">
+            <div class="col-3 menuContainer">
+                <button type="button" class="btn btn-outline-primary menu" id="homeMenu"
+                    onclick="welcomeFunction()">Home</button><br>
+                <button type="button" class="btn btn-outline-secondary menu" id="aboutMenu"
+                    onclick="aboutFunction2()">About</button><br>
+                <button type="button" class="btn btn-outline-info menu" id="portofolioMenu"
+                    onclick="portofolioFunction4()">Portofolio</button>
+                <button type="button" class="btn btn-outline-dark menu" id="contactMenu"
+                    onclick="contactFunction3()">Contact</button><br>
+            </div>
+            <div class="col-9 contentContainer" id="contentContainer">
+                <div id="welcome">
+                    <h1 class="hello">Hello,<img src="pict/hello.png" alt="Hello" class="welcomePict"></h1><br>
+                    <p class="welcomeText">Welcome to my portofolio</p>
+                </div>
+                <div id="about">
+                    <br>
+                    <h2>About me</h2>
+                    <hr>
+                    <div class="row">
+                        <div class="col-5">
+                            <img src="pict/me.jpg" class="aboutimg rounded-circle" alt="About Me">
+                        </div>
+                        <div class="col-7 abouttext d-flex align-items-center">
+                            <p>I am a person who is very
+                                interested in quality
+                                assurance, semantic
+                                web, android, data,
+                                and information systems. So
+                                that, I take several courses like python boot camp, full-stack web development, and
+                                android developer. I am very open to
+                                new technology and always eager to learn about it. Besides that, I am a person who is
+                                diligent, a hard worker,
+                                disciplined, responsible, and able to work in a team.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="portofolio">
+                    <br>
+                    <h2>My Portofolio</h2>
+                    <hr>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-7 text-center border d-flex">
+                                <img src="./pict/Siparu.png" class="card-img img-thumbnail mx-auto my-auto"
+                                    alt="Room Booking System">
+                            </div>
+                            <div class="col-md-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Room Booking System</h5>
+                                    <p class="card-text">The room booking system is a web-based system that has been and
+                                        is still being used at OJK regional offices 3, Central
+                                        Java and Special Region of Yogyakarta. This system is used to carry out the
+                                        process of borrowing room in the office.
+                                        Previously, the process was done manually by taking notes on the book provided.
+                                        This system is present for the Help
+                                        administration division to track and note the history of room bookings. Making
+                                        room booking process computerized, more
+                                        effective, and efficient.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bloggie</h5>
+                                    <p class="card-text">This application is a team project which is currently still
+                                        under development. Bloggie is an application for users to do
+                                        blogging activities in a portal such as social media. Through bloggie, users can
+                                        create content and save the content
+                                        they want.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 text-center border d-flex">
+                                <img src="./pict/Bloggie.png" class="card-img img-thumbnail mx-auto my-auto"
+                                    alt="Bloggie">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-7 text-center border d-flex">
+                                <img src="./pict/GEES.png" class="card-img img-thumbnail mx-auto my-auto" alt="GEES">
+                            </div>
+                            <div class="col-md-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">GEES Production</h5>
+                                    <p class="card-text">This application is a team project to shop for GEES production
+                                        products. Inside the application, there is a list of
+                                        products, promos, and users can log in.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Otomania</h5>
+                                    <p class="card-text">This application is a simple web-based automotive news portal
+                                        called otomania. Through this application, users can view
+                                        various articles, reviews, tips and tricks, data, galleries, and the automotive
+                                        community</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 text-center border d-flex">
+                                <img src="./pict/Otomania.png" class="card-img img-thumbnail mx-auto my-auto"
+                                    alt="Otomania">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-7 text-center border d-flex">
+                                <img src="./pict/Konversi_nilai.png" class="card-img img-thumbnail mx-auto my-auto"
+                                    alt="Grade Conversion">
+                            </div>
+                            <div class="col-md-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Grade Conversion</h5>
+                                    <p class="card-text">This application is a simple website-based GPA value conversion
+                                        application. Required data is the name of the course,
+                                        semester credit unit, and grade in the form of 0-100 for each course. The output
+                                        of this application is a grade point
+                                        average in the form of 0-100, 0-4, and letters.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-5 d-flex align-items-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cashier</h5>
+                                    <p class="card-text">This application is a simple website-based cashier application.
+                                        Required data is the name of the goods, quantity, price,
+                                        and percentage discount. The output of this application is the amount that must
+                                        be paid in the process of purchasing the
+                                        goods.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-7 text-center border d-flex">
+                                <img src="./pict/Kasir.png" class="card-img img-thumbnail mx-auto my-auto" alt="Kasir">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact">
+                    <br>
+                    <h2>Contact Me</h2>
+                    <hr>
+                    <p>Feel free to contact me through this!</p><br>
+                    <a href="mailto:chania.eva@gmail.com"><button type="button"
+                            class="btn btn-outline-dark buttoncontact"><img src="pict/gmail.png"
+                                alt="Gmail"></button></a>
+                    <a href="https://www.linkedin.com/in/chania-evangelista-5284151b8"><button type="button"
+                            class="btn btn-outline-warning buttoncontact"><img src="pict/linkedin.png"
+                                alt="Linkedin"></button></a>
+                    <a href=" https://www.instagram.com/chaniaevangelista/"><button type="button"
+                            class="btn btn-outline-primary buttoncontact"><img src="pict/ig.png"
+                                alt="Instagram"></button></a>
+                    <a href="https://www.facebook.com/chaniaevangelista/"><button type="button"
+                            class="btn btn-outline-secondary buttoncontact"><img src="pict/fb.png"
+                                alt="Facebook"></button></a>
+                    <a href="https://www.twitter.com/chaniaevangelis/"><button type="button"
+                            class="btn btn-outline-success buttoncontact"><img src="pict/twitter.png"
+                                alt="Twitter"></button></a>
+                </div>
+            </div><br><br>
+        </div>
+        <div class="footer" id="footer">
+            <p id="footerText" onclick="footerFunction()">2021</p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+        <script src="JSFile.js"></script>
+        <script>
+            document.getElementById("welcome").style.display = "block";
+            document.getElementById("about").style.display = "none";
+            document.getElementById("contact").style.display = "none";
+            document.getElementById("portofolio").style.display = "none";
+        </script>
+</body>
+
+</html>

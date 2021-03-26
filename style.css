@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "headerFont";
+    src: url(Pacifico-Regular.ttf);
+}
+
+.container {
+    margin-top: 2%;
+    background-color: #e0f2f1;
+}
+
+.header {
+    width: 100%;
+    border: 5px solid black;
+    background-color: #26a69a;
+}
+
+.headerText {
+    font-family: headerFont;
+    font-size: 45pt;
+    padding-top: 4%;
+}
+
+.headerPict {
+    width: 40%;
+    float: right;
+}
+
+.menuContainer {
+    border: 5px solid black;
+    padding-bottom: 3%;
+}
+
+.menu {
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+.hello {
+    margin-top: 8%;
+    font-size: 70pt;
+}
+
+.aboutimg{
+    width: 250px;
+    margin-left: 10%;
+}
+
+.abouttext{
+    text-align: justify;
+}
+
+.welcomeText {
+    font-size: 25pt;
+}
+
+.welcomePict {
+    width: 25%;
+    float: right;
+}
+
+.buttoncontact {
+    margin-right: 10%;
+}
+
+.contentContainer {
+    padding-bottom: 5%;
+    border: 5px solid black;
+    background-color: #b2dfdb;
+}
+
+.footer {
+    text-align: center;
+    background-color: #26a69a;
+}
